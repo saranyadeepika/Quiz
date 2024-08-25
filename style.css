@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #001e4e;
+    font-family: poppins;
+   
+}
+.app
+{
+    background: #fff;
+   
+    
+    max-width: 600px;
+    margin: 100px auto  ;
+    border-radius: 10px;
+    padding: 30px ;
+   
+
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz
+{
+    padding: 20px 0;
+    position: relative;
+   
+   
+}
+.quiz h2,.resultdiv p{
+    font-weight: 600;
+    font-size: 20px;
+     color: #001e4d;
+}
+#answerbutton
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.ansbtn
+{
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    font-family: poppins;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border: 1px solid black;
+    border-radius:10px ;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+}
+.ansbtn:not([style*="background-color: #ff000091"]):not([style*="background-color: #008000b8"]):hover {
+    background-color: #222 ;
+    color: white ;
+}
+
+#nextbtn{
+    background-color: #001e4d;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+    position: absolute;
+    right: 0;
+    bottom: -23px; 
+
+}
+.resultdiv{
+    
+    display: none;
+}
+
+.playagain {
+        background-color: #001e4d;
+        border: none;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 19px;
+        display: block; 
+        margin: 20px auto;
+    }
+    
+
+.resultdiv p{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
